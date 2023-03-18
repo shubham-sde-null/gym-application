@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --width: 95%;
+  --heading: 0.8rem;
+  --borderw: 0.5px solid white;
+}
+
+.containerapp {
+  /* background: url("../images/bg.png");
+  background-position: center;
+  background-size: cover; */
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-color: black;
+}
+
+/* this is used to give the overlay over the background, and I am using the overlay over the whole width that */
+
+.containerapp::after {
+  background: rgba(0, 0, 0, 0.1);
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .containerapp {
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  }
+}

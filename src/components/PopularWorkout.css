@@ -1,0 +1,50 @@
+.popularWorkout {
+  /* border: 1px solid white; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  /* juremstify-content: space-between; */
+  width: var(--width);
+  margin: auto;
+  /* border: var(--borderw); */
+  margin-top: 0.2rem;
+  z-index: 100;
+  padding: 5px 10px;
+}
+
+.popularWorkout p {
+  font-size: var(--heading);
+  font-weight: 500;
+}
+
+.popularWorkout .popularCont {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  /* border: 2px solid red; */
+  z-index: 110;
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.popularWorkout .popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid white; */
+}
+
+.popularWorkout .popular p {
+  font-size: 0.7rem;
+}
+
+.popularWorkout .popular img {
+  width: 140px;
+  border-radius: 15%;
+  margin-bottom: 0.5rem;
+}
