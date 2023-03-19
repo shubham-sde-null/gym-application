@@ -1,82 +1,80 @@
 .workoutProgram {
-  /* border: 1px solid white; */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  /* juremstify-content: space-between; */
-  width: var(--width);
-  margin: auto;
-  /* border: var(--borderw); */
-  margin-top: 0.2rem;
-  z-index: 100;
-  padding: 5px 10px;
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    /* juremstify-content: space-between; */
+    width: var(--width);
+    margin: auto;
+    /* border: var(--borderw); */
+    margin-top: 0.2rem;
+    z-index: 100;
+    padding: 5px 10px;
 }
 
 .workoutProgram p {
-  font-size: var(--heading);
-  font-weight: 500;
+    font-size: var(--heading);
+    font-weight: 500;
 }
 
 .workoutProgram .workoutCont {
-  width: 100%;
-  display: flex;
-  gap: 1rem;
-  /* border: 2px solid red; */
-  z-index: 110;
-  overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid red; */
+    z-index: 110;
+    overflow-x: scroll;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .workoutProgram .workout {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 
 .workoutProgram .workout p {
-  font-size: 0.7rem;
+    font-size: 0.7rem;
 }
 
 .workoutProgram .workout img {
-  width: 140px;
-  border-radius: 15%;
-  margin-bottom: 0.5rem;
+    width: 140px;
+    border-radius: 15%;
+    margin-bottom: 0.5rem;
 }
 
 .workoutCategories {
-  display: flex;
-  overflow-x: scroll;
-  gap: 0.5rem;
-  z-index: 200;
+    display: flex;
+    overflow-x: scroll;
+    gap: 0.5rem;
+    z-index: 200;
 }
 
 .workoutCategories .workoutName {
-  border: 0.5px solid rgba(255, 255, 255, 0.3);
-  min-width: 70px;
-  text-align: center;
-  padding: 2px 5px;
-  border-radius: 1rem;
-  font-size: 0.7rem;
+    border: 0.5px solid rgba(255, 255, 255, 0.3);
+    min-width: 70px;
+    text-align: center;
+    padding: 2px 5px;
+    border-radius: 1rem;
+    font-size: 0.7rem;
 }
 
 .workoutCategories a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
-.menu-list li a.active {
-  background-color: #fff;
-  border-radius: 0.2rem;
-  color: black;
-  transition: all 0.4s ease-in-out;
+.workoutCategories p {
+    color: #7f8c8d;
 }
 
-.workoutCategories a.activecategory {
-  background-color: white;
+#workActive {
+    color: rgb(255, 255, 255);
+    border: 0.5px solid white;
 }

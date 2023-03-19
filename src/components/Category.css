@@ -1,50 +1,50 @@
 .home {
-  /* border: 1px solid white; */
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 0.7rem;
-  /* juremstify-content: space-between; */
-  width: var(--width);
-  margin: auto;
-  /* border: var(--borderw); */
-  margin-top: 0.2rem;
-  z-index: 100;
-  padding: 5px 10px;
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    /* juremstify-content: space-between; */
+    width: var(--width);
+    margin: auto;
+    /* border: var(--borderw); */
+    margin-top: 3rem;
+    z-index: 100;
+    padding: 5px 10px;
 }
 
 .home p {
-  font-size: var(--heading);
-  font-weight: 500;
+    font-size: var(--heading);
+    font-weight: 500;
 }
 
 .home .exerciseCont {
-  width: 100%;
-  display: flex;
-  gap: 1rem;
-  /* border: 2px solid red; */
-  z-index: 110;
-  overflow-x: scroll;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid red; */
+    z-index: 110;
+    overflow-x: scroll;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
 .home .exercise {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
 }
 
 .home .exercise p {
-  font-size: 0.7rem;
+    font-size: 0.7rem;
 }
 
 .home .exercise img {
-  width: 50px;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
 }

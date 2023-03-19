@@ -1,6 +1,8 @@
 import React from "react";
 import exerciseList from "../context/ExerciseList";
+
 import "./Category.css";
+
 function Category() {
   return (
     <div className="home">

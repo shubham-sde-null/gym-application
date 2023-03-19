@@ -13,6 +13,7 @@ function Navbar() {
   //   console.log(navbarHeight.current.clientHeight);
   // });
   const [clicked, setClicked] = useState(false);
+
   return (
     <nav>
       <div className="logo">
