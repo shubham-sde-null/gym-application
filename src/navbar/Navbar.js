@@ -39,7 +39,13 @@ function Navbar() {
         {/* here I get the index number in the index but I want to use the index as keys and I want some unique keys so I am going to use the uuidv4() which will give me the new index for each iteration */}
         {MenuList.map(({ title, url, index = uuidv4() }) => (
           <li key={index}>
-            <NavLink activeclassName="active" to={url}>
+            <NavLink
+              //this is the new way of using the active class in the Navlink
+              className={(navData) => (navData.isActive ? "active" : "")}
+              //this if the old way of using the active class in the Navlink
+              //  activeclassName="active"
+              to={url}
+            >
               {title}
             </NavLink>{" "}
           </li>
