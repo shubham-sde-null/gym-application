@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/gym-application/static/css/main.b79073c9.css",
+    "main.js": "/gym-application/static/js/main.789272d0.js",
+    "static/media/bicep.png": "/gym-application/static/media/bicep.02293ab1c25c6e308217.png",
+    "static/media/back.png": "/gym-application/static/media/back.e761f2eeaa1f189c399a.png",
+    "static/media/chest.png": "/gym-application/static/media/chest.3ddd285a7ca3b0d3897b.png",
+    "static/media/concentrationcurl.png": "/gym-application/static/media/concentrationcurl.e06a8f471301f63503b6.png",
+    "static/media/latpulldown.png": "/gym-application/static/media/latpulldown.1d55a76d4349b64563a9.png",
+    "static/media/dumbbelllunges.png": "/gym-application/static/media/dumbbelllunges.c235b1a3f6018b2c6d9d.png",
+    "static/media/benchpress.png": "/gym-application/static/media/benchpress.eb4ebb4fb8a6d7916f0e.png",
+    "static/media/cablecrossovers.png": "/gym-application/static/media/cablecrossovers.8cf69a64a730ba164a3a.png",
+    "static/media/warmup.png": "/gym-application/static/media/warmup.fd1871440f97b12d395d.png",
+    "static/media/mix.png": "/gym-application/static/media/mix.99930fb8fa39c83c81ca.png",
+    "static/media/stretch.png": "/gym-application/static/media/stretch.e5150b92b7a19ce2699e.png",
+    "static/media/backworkout.png": "/gym-application/static/media/backworkout.94b75c518a3f3295dcf2.png",
+    "static/media/armsworkout.png": "/gym-application/static/media/armsworkout.21a133a8207be19df50b.png",
+    "static/media/legs.png": "/gym-application/static/media/legs.1c2783e8350f0dbb3526.png",
+    "static/media/tricep.png": "/gym-application/static/media/tricep.386a701d4589912f9ab2.png",
+    "static/media/fullbodyworkout.png": "/gym-application/static/media/fullbodyworkout.c9eb84ed95f712759768.png",
+    "static/media/abs.png": "/gym-application/static/media/abs.fea78415c54f3827c803.png",
+    "index.html": "/gym-application/index.html",
+    "main.b79073c9.css.map": "/gym-application/static/css/main.b79073c9.css.map",
+    "main.789272d0.js.map": "/gym-application/static/js/main.789272d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79073c9.css",
+    "static/js/main.789272d0.js"
+  ]
+}
