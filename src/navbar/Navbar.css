@@ -81,6 +81,9 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+    nav a {
+        text-decoration: none;
+    }
     .menu-icon {
         display: block;
         width: 22px;
@@ -101,9 +104,10 @@ nav {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.7);
         padding: 20px;
-        top: 50px;
+        top: 44px;
         right: 0px;
         transition: all 0.5s ease-in-out;
+        /* border: 1px solid white; */
     }
     .menu-list li {
         margin-bottom: 1.5rem;

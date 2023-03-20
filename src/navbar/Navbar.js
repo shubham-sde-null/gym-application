@@ -16,9 +16,13 @@ function Navbar() {
 
   return (
     <nav>
-      <div className="logo">
-        Shubham &nbsp;<span>Fitness</span>
-      </div>
+      <NavLink to="/">
+        {" "}
+        <div className="logo">
+          Shubham &nbsp;<span>Fitness</span>
+        </div>
+      </NavLink>
+
       <div
         className="menu-icon"
         onClick={() => {

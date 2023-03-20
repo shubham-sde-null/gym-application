@@ -6,6 +6,7 @@ import BeginnerWorkout from "../pages/BeginnerWorkout";
 import AdvanceWorkout from "../pages/AdvanceWorkout";
 import Store from "../pages/Store";
 import About from "../pages/About";
+import Feedback from "./Feedback";
 function App() {
   return (
     <div className="containerapp">
@@ -19,6 +20,7 @@ function App() {
           <Route path="/advanceworkout" element={<AdvanceWorkout />} />
           <Route path="/store" element={<Store />} />
           <Route path="/about" element={<About />} />
+          <Route path="/feedback" element={<Feedback />} />
         </Routes>
       </Router>
     </div>
