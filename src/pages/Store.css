@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  .store {
+    margin-top: 3rem;
+    color: rgba(58, 227, 116, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    z-index: 2000;
+  }
+  .store p {
+    color: white;
+  }
+  .store a {
+    z-index: 300;
+  }
+  .store button {
+    margin-top: 1rem;
+    background-color: rgba(113, 88, 226, 1);
+    font-weight: 600;
+    padding: 5px 10px;
+  }
+}
